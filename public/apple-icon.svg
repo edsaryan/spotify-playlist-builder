@@ -1,0 +1,48 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background circle -->
+  <circle cx="90" cy="90" r="85" fill="#0a0a0a" stroke="url(#borderGradient)" stroke-width="3"/>
+  
+  <!-- Vinyl record -->
+  <g transform="translate(90, 90)">
+    <!-- Outer edge -->
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+    
+    <!-- Groove lines (more detailed at larger size) -->
+    <circle cx="0" cy="0" r="62" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="54" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="46" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+    
+    <!-- Center label circle with bronze accent -->
+    <circle cx="0" cy="0" r="18" fill="#0a0a0a" stroke="url(#centerGradient)" stroke-width="2"/>
+    
+    <!-- Inner center hole -->
+    <circle cx="0" cy="0" r="6" fill="#0a0a0a"/>
+    
+    <!-- Accent dots in BRG -->
+    <circle cx="22" cy="22" r="3" fill="#004225" opacity="0.7"/>
+    <circle cx="-22" cy="-22" r="3" fill="#004225" opacity="0.7"/>
+    <circle cx="22" cy="-22" r="2.5" fill="#004225" opacity="0.5"/>
+    
+    <!-- Bronze accent ring on label -->
+    <circle cx="0" cy="0" r="14" fill="none" stroke="#CD7F32" stroke-width="1" opacity="0.6"/>
+    
+    <!-- Subtle text/sparkle in center (AI accent) -->
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#E6A857" stroke-width="0.8" opacity="0.3"/>
+  </g>
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#004225;stop-opacity:0.5" />
+      <stop offset="50%" style="stop-color:#CD7F32;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#004225;stop-opacity:0.5" />
+    </linearGradient>
+    <linearGradient id="centerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#004225;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#CD7F32;stop-opacity:0.5" />
+    </linearGradient>
+  </defs>
+</svg>
